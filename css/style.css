@@ -36,3 +36,13 @@ td, th {
 .text-bold {
     font-weight: 700;
 }
+
+.gold {
+    background-color: goldenrod;
+}
+.silver {
+    background-color: silver;
+}
+.bronze {
+    background-color: #cd7f32;
+}
