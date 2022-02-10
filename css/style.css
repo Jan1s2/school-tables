@@ -1,0 +1,38 @@
+h1 {
+    background-color: brown;
+    color: white;
+}
+
+main {
+    width: 75%;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+}
+
+table, td, th {
+    border: 1px solid #888;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 5px;
+}
+
+.flag {
+    height: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-bold {
+    font-weight: 700;
+}
