@@ -1,15 +1,19 @@
+body {
+    background-color: #c0c0c0;
+}
+
 h1 {
-    background-color: brown;
-    color: white;
+    color: black;
 }
 
 main {
-    width: 75%;
+    width: 85%;
     margin: 0 auto;
 }
 
 table {
     width: 100%;
+    background-color: #ddd;
 }
 
 table, td, th {
@@ -45,4 +49,8 @@ td, th {
 }
 .bronze {
     background-color: #cd7f32;
+}
+
+footer {
+    opacity: 0.15;
 }
