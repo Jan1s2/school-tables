@@ -4,6 +4,7 @@ body {
 
 h1 {
     color: black;
+    font-size: 2.5em;
 }
 
 main {
@@ -23,6 +24,10 @@ table, td, th {
 
 td, th {
     padding: 5px;
+}
+
+caption {
+    font-size: 150%;
 }
 
 .flag {
@@ -54,3 +59,46 @@ td, th {
 footer {
     opacity: 0.15;
 }
+
+@keyframes zoom-row {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.05);
+    }
+/*    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.05);
+    }*/
+}
+
+@keyframes unzoom-row {
+    from {
+        transform: scale(1.05);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+tbody tr {
+/*    animation: unzoom-row 1s ease-in 0s 1 normal forwards;
+*/
+    animation-name: unzoom-row;
+    animation-duration: 1s;
+}
+
+
+tbody tr:hover {
+/*    animation: zoom-row 1s ease-in 0s 1 normal forwards;
+*/    animation-name: zoom-row;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    border: 1px;
+    /*    transform: scale(1.05);
+*/
+}
+
