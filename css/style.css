@@ -68,12 +68,6 @@ footer {
     to {
         transform: scale(1.05);
     }
-/*    0% {
-        transform: scale(1);
-    }
-    100% {
-        transform: scale(1.05);
-    }*/
 }
 
 @keyframes unzoom-row {
@@ -86,20 +80,15 @@ footer {
 }
 
 tbody tr {
-/*    animation: unzoom-row 1s ease-in 0s 1 normal forwards;
-*/
     animation-name: unzoom-row;
     animation-duration: 1s;
 }
 
 
 tbody tr:hover {
-/*    animation: zoom-row 1s ease-in 0s 1 normal forwards;
-*/    animation-name: zoom-row;
+    animation-name: zoom-row;
     animation-duration: 1s;
     animation-fill-mode: forwards;
     border: 1px;
-    /*    transform: scale(1.05);
-*/
 }
 
