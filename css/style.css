@@ -4,7 +4,7 @@ body {
 
 h1 {
     color: black;
-    font-size: 2.5em;
+    font-size: 2.55em;
 }
 
 main {
@@ -18,6 +18,7 @@ table {
 }
 
 table, td, th {
+    font-size: 105%;
     border: 1px solid #888;
     border-collapse: collapse;
 }
@@ -27,7 +28,7 @@ td, th {
 }
 
 caption {
-    font-size: 150%;
+    font-size: 165%;
 }
 
 .flag {
