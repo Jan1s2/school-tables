@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="cs">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,50 +8,74 @@
     <title>Tabulky v HTML</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <header>
         <h1 class="text-center">Tabulky v HTML</h1>
     </header>
 
     <main>
-        <table>
-            <caption class="text-bold">Severská kombinace</caption>
-            <thead>
-                <tr>
-                    <th>Umístění</th>
-                    <th>Sportovec</th>
-                    <th>Stát</th>
-                    <th>Výkon</th>
-                </tr>
-            </thead>
+        <span class="main">
+            <table>
+                <caption class="text-bold">Severská kombinace</caption>
+                <thead>
+                    <tr>
+                        <th>Umístění</th>
+                        <th>Sportovec</th>
+                        <th>Stát</th>
+                        <th>Výkon</th>
+                    </tr>
+                </thead>
 
-            <tbody>
-                <tr class="gold">
-                    <td class="text-center text-bold">1.</td>
-                    <td class="text-bold">Geiger</td>
-                    <td class="text-bold"><img src="img/deu.png" alt="Vlajka Německa" class="flag"> Německo</td>
-                    <td class="text-right text-bold">25:07.7</td>
-                </tr>
-                <tr class="silver">
-                    <td class="text-center">2.</td>
-                    <td>Graabak</td>
-                    <td><img src="img/nor.png" alt="Vlajka Norska" class="flag"> Norsko</td>
-                    <td class="text-right">25:08.5</td>
-                </tr>
-                <tr class="bronze">
-                    <td class="text-center">3.</td>
-                    <td>Greiderer</td>
-                    <td><img src="img/aut.png" alt="Vlajka Rakouska" class="flag"> Rakousko</td>
-                    <td class="text-right">25:14.3</td>
-                </tr>
-            </tbody>
+                <tbody>
+                    <tr class="gold">
+                        <td class="text-center text-bold">1.</td>
+                        <td class="text-bold">Geiger</td>
+                        <td class="text-bold"><img src="img/deu.png" alt="Vlajka Německa" class="flag"> Německo</td>
+                        <td class="text-right text-bold">25:07.7</td>
+                    </tr>
+                    <tr class="silver">
+                        <td class="text-center">2.</td>
+                        <td>Graabak</td>
+                        <td><img src="img/nor.png" alt="Vlajka Norska" class="flag"> Norsko</td>
+                        <td class="text-right">25:08.5</td>
+                    </tr>
+                    <tr class="bronze">
+                        <td class="text-center">3.</td>
+                        <td>Greiderer</td>
+                        <td><img src="img/aut.png" alt="Vlajka Rakouska" class="flag"> Rakousko</td>
+                        <td class="text-right">25:14.3</td>
+                    </tr>
+                </tbody>
 
-            <tfoot>
-                <tr>
-                    <td colspan="4" class="text-center">Zimní olypijské hry Peking 2022</td>            
-                </tr>
-            </tfoot>
-        </table>
+                <tfoot>
+                    <tr>
+                        <td colspan="4" class="text-center">Zimní olypijské hry Peking 2022</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </span>
+        <h2>INFORMACE</h2>
+        <span class="info">
+            <table>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="3">
+                            <img src="img/ol_rings.webp" class="logo">
+                        </td>
+                        <th colspan="2">Severská kombinace</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Počet účastníků:</td>
+                    </tr>
+                    <tr>
+                        <td>55</td>
+                        <td>-</td>
+                    </tr>
+                </tbody>
+            </table>
+        </span>
     </main>
 
     <footer>
@@ -58,4 +83,5 @@
         <p>Jan Stránský IT1</p>
     </footer>
 </body>
+
 </html>
