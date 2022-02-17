@@ -92,11 +92,14 @@ footer {
     border: 1px;
 }
 
-.logo {
+.logo img {
     max-width: 250px;
     max-height: 250px;
     padding: 0px;
     margin: 0;
+}
+.logo {
+    background-color: white;
 }
 
 .info table {
