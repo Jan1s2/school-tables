@@ -108,3 +108,7 @@ footer {
     margin-right: auto;
     background-color: #ddd;
 }
+
+.info table {
+    width: 100%;
+}
